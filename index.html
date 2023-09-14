@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Registration Form</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reste.css">
+
+</head>
+
+<body>
+	<div class="container">
+
+	 <div class="column1">
+	   <form action="action_page.php">
+		
+		<h1>Job Application</h1>
+		<p>Please fill out this form with the requiered information</p>
+		<hr>
+	 
+		<label for="name"><b>Full Name:</b></label>
+		   <input type="text" placeholder="Enter Name" name="name" id="name" required>
+	 
+		<label for="email"><b>Email Address:</b></label>
+		   <input type="text" placeholder="Enter Email" name="email" id="email" required>
+	 
+		  
+		<label for="phone-number"><b>Phone Number:</b></label>
+		   <input type="text" placeholder="Enter Phone Number" name="phone-number" id="phone-number" required>
+		  
+
+		<label for="resume"><b>Resume (PDF or Word):</b></label>
+         <input type="file" id="resume" name="resume" accept=" .pdf,.doc,.docx">
+		  
+      
+		<label for="position-applied"><b>Position Applied:</b></label>
+		   <select type="text" name="position-applied">
+			<option value="">Select Position</option>
+			 <option value="1">Frontend Developer</option>
+			 <option value="2">Backend Developer</option>
+			 <option value="3">IT Developer</option>
+		</select>
+
+			
+
+		  <input type="submit" value="Submit Application">
+
+	 </form>
+	</div>
+
+	<div class="column2">
+	   <img src="Macbook-img.jpg" alt="Macbook-img"/>
+	</div>
+
+</div>
+  
+
+</body>
+
+</html>
